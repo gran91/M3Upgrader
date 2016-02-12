@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<envs>
+  <env id="2">
+    <Name>TST</Name>
+    <VersionBE>1</VersionBE>
+    <Servertype>1</Servertype>
+    <Host>10.148.150.20</Host>
+    <Port>16666</Port>
+    <LoginServerView />
+    <PassServerView />
+    <PathM3BE>S:\Movex_v12</PathM3BE>
+    <LoginM3BE>msrvadm</LoginM3BE>
+    <PassM3BE>msrvadm</PassM3BE>
+    <PathMNE />
+    <LoginMNE />
+    <PassMNE />
+  </env>
+  <env id="1">
+    <Name>prod</Name>
+    <VersionBE>1</VersionBE>
+    <Servertype>1</Servertype>
+    <Host>10.148.150.1</Host>
+    <Port>6667</Port>
+    <LoginServerView>IBMDEV2</LoginServerView>
+    <PassServerView>IBMDEV2</PassServerView>
+    <PathM3BE>X:\Movex_v12</PathM3BE>
+    <LoginM3BE>msrvadm</LoginM3BE>
+    <PassM3BE>msrvadm</PassM3BE>
+    <PathMNE />
+    <LoginMNE />
+    <PassMNE />
+  </env>
+  <env id="6">
+    <Name>PROD12</Name>
+    <VersionBE>1</VersionBE>
+    <Servertype>1</Servertype>
+    <Host>10.148.150.1</Host>
+    <Port>6667</Port>
+    <LoginServerView>m3srvadm</LoginServerView>
+    <PassServerView />
+    <PathM3BE>Q:\Movex_v12\</PathM3BE>
+    <LoginM3BE>msrvadm</LoginM3BE>
+    <PassM3BE>msrvadm</PassM3BE>
+    <PathMNE />
+    <LoginMNE />
+    <PassMNE />
+  </env>
+  <env id="7">
+    <Name>PRODV15</Name>
+    <VersionBE>3</VersionBE>
+    <Servertype>1</Servertype>
+    <Host>10.148.150.37</Host>
+    <Port>16308</Port>
+    <LoginServerView>lrou</LoginServerView>
+    <PassServerView>Ludo3vic</PassServerView>
+    <PathM3BE>P:\M3BE</PathM3BE>
+    <LoginM3BE />
+    <PassM3BE />
+    <PathMNE />
+    <LoginMNE />
+    <PassMNE />
+  </env>
+  <env id="8">
+    <Name>HSE</Name>
+    <VersionBE>3</VersionBE>
+    <Servertype>1</Servertype>
+    <Host>10.55.109.2</Host>
+    <Port>16808</Port>
+    <LoginServerView>M3MAP1234</LoginServerView>
+    <PassServerView>M3MAP1234</PassServerView>
+    <PathM3BE>R:\MFBE</PathM3BE>
+    <LoginM3BE>M3MAP1234</LoginM3BE>
+    <PassM3BE>M3MAP1234</PassM3BE>
+    <PathMNE />
+    <LoginMNE />
+    <PassMNE />
+  </env>
+</envs>
+

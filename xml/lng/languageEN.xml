@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lang id="188">
+  <label id="0">
+    <nom>Bundle M3</nom>
+  </label>
+  <label id="2">
+    <nom>Delete</nom>
+  </label>
+  <label id="3">
+    <nom>Connect</nom>
+  </label>
+  <label id="4">
+    <nom>DB Type</nom>
+  </label>
+  <label id="5">
+    <nom>Host</nom>
+  </label>
+  <label id="6">
+    <nom>DB Name</nom>
+  </label>
+  <label id="7">
+    <nom>Login</nom>
+  </label>
+  <label id="8">
+    <nom>Password</nom>
+  </label>
+  <label id="9">
+    <nom>Environment</nom>
+  </label>
+  <label id="10">
+    <nom>Address</nom>
+  </label>
+  <label id="13">
+    <nom>Please select a line!</nom>
+  </label>
+  <label id="14">
+    <nom>already exist!</nom>
+  </label>
+  <label id="15">
+    <nom>Modify</nom>
+  </label>
+  <label id="16">
+    <nom>Clear</nom>
+  </label>
+  <label id="17">
+    <nom>Life Cycle management</nom>
+  </label>
+  <label id="18">
+    <nom>Code</nom>
+  </label>
+  <label id="19">
+    <nom>Creation Date</nom>
+  </label>
+  <label id="20">
+    <nom>Consumption</nom>
+  </label>
+  <label id="21">
+    <nom>Forecast</nom>
+  </label>
+  <label id="22">
+    <nom>Generate Excel file</nom>
+  </label>
+  <label id="23">
+    <nom>Send by mail</nom>
+  </label>
+  <label id="24">
+    <nom>Update database</nom>
+  </label>
+  <label id="25">
+    <nom>Process</nom>
+  </label>
+  <label id="26">
+    <nom>Output management</nom>
+  </label>
+  <label id="27">
+    <nom>Activate mails</nom>
+  </label>
+  <label id="29">
+    <nom>Email</nom>
+  </label>
+  <label id="30">
+    <nom>Directory</nom>
+  </label>
+  <label id="31">
+    <nom>Mail server</nom>
+  </label>
+  <label id="32">
+    <nom>Run</nom>
+  </label>
+  <label id="33">
+    <nom>Output management for process</nom>
+  </label>
+  <label id="34">
+    <nom>File</nom>
+  </label>
+  <label id="35">
+    <nom>Quit</nom>
+  </label>
+  <label id="36">
+    <nom>Quit program</nom>
+  </label>
+  <label id="37">
+    <nom>Help</nom>
+  </label>
+  <label id="38">
+    <nom>Language</nom>
+  </label>
+  <label id="39">
+    <nom>Please type data!</nom>
+  </label>
+  <label id="40">
+    <nom>Email not valid!</nom>
+  </label>
+  <label id="41">
+    <nom>Do you really want delete the selected records?</nom>
+  </label>
+  <label id="42">
+    <nom>Class</nom>
+  </label>
+  <label id="43">
+    <nom>Description</nom>
+  </label>
+  <label id="44">
+    <nom>Minimum</nom>
+  </label>
+  <label id="45">
+    <nom>Maximum</nom>
+  </label>
+  <label id="46">
+    <nom>The fields Maximum and Minimun correspond to number of times consumed per year.</nom>
+  </label>
+  <label id="47">
+    <nom>ABC classes management</nom>
+  </label>
+  <label id="48">
+    <nom>ABC Class</nom>
+  </label>
+  <label id="49">
+    <nom>Select all</nom>
+  </label>
+  <label id="50">
+    <nom>Deselect all</nom>
+  </label>
+  <label id="51">
+    <nom>Choose directory</nom>
+  </label>
+  <label id="52">
+    <nom>Connection successed</nom>
+  </label>
+  <label id="53">
+    <nom>Connection failed</nom>
+  </label>
+  <label id="54">
+    <nom>Customer</nom>
+  </label>
+  <label id="55">
+    <nom>Address</nom>
+  </label>
+  <label id="56">
+    <nom>CP</nom>
+  </label>
+  <label id="57">
+    <nom>Town</nom>
+  </label>
+  <label id="58">
+    <nom>Country</nom>
+  </label>
+  <label id="59">
+    <nom>DSI</nom>
+  </label>
+  <label id="60">
+    <nom>Project Chief</nom>
+  </label>
+  <label id="61">
+    <nom>Logica Project Chief</nom>
+  </label>
+  <label id="62">
+    <nom>Project</nom>
+  </label>
+  <label id="63">
+    <nom>M3 Version</nom>
+  </label>
+  <label id="64">
+    <nom>Details</nom>
+  </label>
+  <label id="65">
+    <nom>VPN Access</nom>
+  </label>
+  <label id="66">
+    <nom>Wifi Access</nom>
+  </label>
+  <label id="67">
+    <nom>Proxy</nom>
+  </label>
+  <label id="68">
+    <nom>Network directories</nom>
+  </label>
+  <label id="69">
+    <nom>Remote servers</nom>
+  </label>
+  <label id="70">
+    <nom>VPN Type</nom>
+  </label>
+  <label id="71">
+    <nom>Web Client</nom>
+  </label>
+  <label id="72">
+    <nom>Application</nom>
+  </label>
+  <label id="73">
+    <nom>Description</nom>
+  </label>
+  <label id="74">
+    <nom>Validate</nom>
+  </label>
+  <label id="75">
+    <nom>Download link</nom>
+  </label>
+  <label id="76">
+    <nom>Process</nom>
+  </label>
+  <label id="77">
+    <nom>Wifi Type</nom>
+  </label>
+  <label id="78">
+    <nom>WEP/WPA</nom>
+  </label>
+  <label id="79">
+    <nom>Login</nom>
+  </label>
+  <label id="80">
+    <nom>SSID</nom>
+  </label>
+  <label id="81">
+    <nom>Wifi Key</nom>
+  </label>
+  <label id="82">
+    <nom>Server Type</nom>
+  </label>
+  <label id="83">
+    <nom>Windows Server</nom>
+  </label>
+  <label id="84">
+    <nom>AS400</nom>
+  </label>
+  <label id="85">
+    <nom>Linux/Unix</nom>
+  </label>
+  <label id="86">
+    <nom>Solaris</nom>
+  </label>
+  <label id="87">
+    <nom>Proxy</nom>
+  </label>
+  <label id="88">
+    <nom>Location</nom>
+  </label>
+  <label id="89">
+    <nom>URL</nom>
+  </label>
+  <label id="90">
+    <nom>Script</nom>
+  </label>
+  <label id="91">
+    <nom>Proxy Type</nom>
+  </label>
+  <label id="92">
+    <nom>Port</nom>
+  </label>
+  <label id="93">
+    <nom>Project</nom>
+  </label>
+  <label id="94">
+    <nom>Project type</nom>
+  </label>
+  <label id="95">
+    <nom>Analytic reference</nom>
+  </label>
+  <label id="96">
+    <nom>Type</nom>
+  </label>
+  <label id="97">
+    <nom>Projet number</nom>
+  </label>
+  <label id="98">
+    <nom>M3BE path</nom>
+  </label>
+  <label id="99">
+    <nom>Search</nom>
+  </label>
+  <label id="100">
+    <nom>DB Host</nom>
+  </label>
+  <label id="101">
+    <nom>DB Login</nom>
+  </label>
+  <label id="102">
+    <nom>DB Password</nom>
+  </label>
+  <label id="103">
+    <nom>DB Port</nom>
+  </label>
+  <label id="104">
+    <nom>Staff</nom>
+  </label>
+  <label id="105">
+    <nom>Logica staff</nom>
+  </label>
+  <label id="106">
+    <nom>Remember user</nom>
+  </label>
+  <label id="107">
+    <nom>Connection</nom>
+  </label>
+  <label id="108">
+    <nom>Last Name</nom>
+  </label>
+  <label id="109">
+    <nom>First Name</nom>
+  </label>
+  <label id="110">
+    <nom>Phone</nom>
+  </label>
+  <label id="111">
+    <nom>Mobile</nom>
+  </label>
+  <label id="112">
+    <nom>Function</nom>
+  </label>
+  <label id="113">
+    <nom>Modify</nom>
+  </label>
+  <label id="114">
+    <nom>Validate</nom>
+  </label>
+  <label id="115">
+    <nom>Web Site</nom>
+  </label>
+  <label id="116">
+    <nom>General</nom>
+  </label>
+  <label id="117">
+    <nom>M3 Version</nom>
+  </label>
+  <label id="118">
+    <nom>M3BE Version</nom>
+  </label>
+  <label id="119">
+    <nom>Fix Version</nom>
+  </label>
+  <label id="120">
+    <nom>M3 Access</nom>
+  </label>
+  <label id="121">
+    <nom>Workplace</nom>
+  </label>
+  <label id="122">
+    <nom>LSC\LSO</nom>
+  </label>
+  <label id="123">
+    <nom>Certificat</nom>
+  </label>
+  <label id="124">
+    <nom>M3 Application</nom>
+  </label>
+  <label id="125">
+    <nom>Path</nom>
+  </label>
+  <label id="126">
+    <nom>Database</nom>
+  </label>
+  <label id="127">
+    <nom>ServerView</nom>
+  </label>
+  <label id="128">
+    <nom>Display</nom>
+  </label>
+  <label id="129">
+    <nom>VPN Client Type</nom>
+  </label>
+  <label id="130">
+    <nom>Cancel</nom>
+  </label>
+  <label id="131">
+    <nom>Apply</nom>
+  </label>
+  <label id="132">
+    <nom>Do you want open the file?</nom>
+  </label>
+  <label id="133">
+    <nom>Open</nom>
+  </label>
+  <label id="134">
+    <nom>Document type</nom>
+  </label>
+  <label id="135">
+    <nom>Format type</nom>
+  </label>
+  <label id="136">
+    <nom>Document</nom>
+  </label>
+  <label id="137">
+    <nom>Location</nom>
+  </label>
+  <label id="138">
+    <nom>Connect to directory</nom>
+  </label>
+  <label id="139">
+    <nom>New file</nom>
+  </label>
+  <label id="140">
+    <nom>Open file</nom>
+  </label>
+  <label id="141">
+    <nom>Save</nom>
+  </label>
+  <label id="142">
+    <nom>Save as...</nom>
+  </label>
+  <label id="143">
+    <nom>Save all</nom>
+  </label>
+  <label id="144">
+    <nom>File extension</nom>
+  </label>
+  <label id="145">
+    <nom>Target directory</nom>
+  </label>
+  <label id="146">
+    <nom>Class fields before methods</nom>
+  </label>
+  <label id="147">
+    <nom>Convert Unicode string to ANSI string</nom>
+  </label>
+  <label id="148">
+    <nom>Restore package directory structure</nom>
+  </label>
+  <label id="149">
+    <nom>Source class</nom>
+  </label>
+  <label id="150">
+    <nom>Edit</nom>
+  </label>
+  <label id="151">
+    <nom>Copy</nom>
+  </label>
+  <label id="152">
+    <nom>Cut</nom>
+  </label>
+  <label id="153">
+    <nom>Paste</nom>
+  </label>
+  <label id="154">
+    <nom>Encoding</nom>
+  </label>
+  <label id="155">
+    <nom>Decompil</nom>
+  </label>
+  <label id="156">
+    <nom>Language</nom>
+  </label>
+  <label id="157">
+    <nom>Search</nom>
+  </label>
+  <label id="158">
+    <nom>Whole word</nom>
+  </label>
+  <label id="159">
+    <nom>Regular expression</nom>
+  </label>
+  <label id="160">
+    <nom>Match case</nom>
+  </label>
+  <label id="161">
+    <nom>Next</nom>
+  </label>
+  <label id="162">
+    <nom>Previous</nom>
+  </label>
+  <label id="163">
+    <nom>Text not found!</nom>
+  </label>
+  <label id="164">
+    <nom>Folding</nom>
+  </label>
+  <label id="165">
+    <nom>Toggle current fold</nom>
+  </label>
+  <label id="166">
+    <nom>Collapse all comments</nom>
+  </label>
+  <label id="167">
+    <nom>Collapse all</nom>
+  </label>
+  <label id="168">
+    <nom>Expand all</nom>
+  </label>
+  <label id="169">
+    <nom>You have to select files in the table!</nom>
+  </label>
+  <label id="170">
+    <nom>Do you want to open generated source files?</nom>
+  </label>
+  <label id="171">
+    <nom>Tips</nom>
+  </label>
+  <label id="172">
+    <nom>Length</nom>
+  </label>
+  <label id="173">
+    <nom>Lines</nom>
+  </label>
+  <label id="174">
+    <nom>Modified on</nom>
+  </label>
+  <label id="175">
+    <nom>Size</nom>
+  </label>
+  <label id="178">
+    <nom>M3 Configuration</nom>
+  </label>
+  <label id="179">
+    <nom>M3BE and Serverview Information</nom>
+  </label>
+  <label id="180">
+    <nom>MNE Information</nom>
+  </label>
+  <label id="181">
+    <nom>MNE_Data Path</nom>
+  </label>
+  <label id="182">
+    <nom>MAK Workspace</nom>
+  </label>
+  <label id="183">
+    <nom>Configuration</nom>
+  </label>
+  <label id="184">
+    <nom>Configuration list</nom>
+  </label>
+  <label id="185">
+    <nom>Action code</nom>
+  </label>
+  <label id="186">
+    <nom>Option</nom>
+  </label>
+  <label id="187">
+    <nom>French</nom>
+  </label>
+  <label id="188">
+    <nom>English</nom>
+  </label>
+  <label id="189">
+    <nom>Component</nom>
+  </label>
+  <label id="190">
+    <nom>Standard component</nom>
+  </label>
+  <label id="191">
+    <nom>Customer component</nom>
+  </label>
+  <label id="192">
+    <nom>Class type</nom>
+  </label>
+  <label id="193">
+    <nom>Class Name</nom>
+  </label>
+  <label id="194">
+    <nom>Class path</nom>
+  </label>
+  <label id="195">
+    <nom>Type</nom>
+  </label>
+  <label id="197">
+    <nom>Superclass</nom>
+  </label>
+  <label id="198">
+    <nom>Standard level</nom>
+  </label>
+  <label id="199">
+    <nom>Source</nom>
+  </label>
+  <label id="200">
+    <nom>Field</nom>
+  </label>
+  <label id="201">
+    <nom>To migrate</nom>
+  </label>
+  <label id="202">
+    <nom>Workspace User</nom>
+  </label>
+  <label id="203">
+    <nom>Run</nom>
+  </label>
+  <label id="204">
+    <nom>Launch Excel File</nom>
+  </label>
+  <label id="205">
+    <nom>Path file</nom>
+  </label>
+  <label id="1">
+    <nom>Add</nom>
+  </label>
+  <label id="11">
+    <nom>Name</nom>
+  </label>
+  <label id="28">
+    <nom>Activate directories</nom>
+  </label>
+  <label id="12">
+    <nom>Number of line</nom>
+  </label>
+  <label id="206">
+    <nom>Source Environment</nom>
+  </label>
+  <label id="207">
+    <nom>Target Environment</nom>
+  </label>
+  <label id="208">
+    <nom>Analyze</nom>
+  </label>
+  <label id="209">
+    <nom>Migrate</nom>
+  </label>
+  <label id="210">
+    <nom>Analyzed data exist.</nom>
+  </label>
+  <label id="211">
+    <nom>Do you want open the existing analyze result?</nom>
+  </label>
+  <label id="212">
+    <nom>Do you want save parameters?</nom>
+  </label>
+  <label id="213">
+    <nom>The analyze file is generated.</nom>
+  </label>
+  <label id="214">
+    <nom>Opening file</nom>
+  </label>
+  <label id="215">
+    <nom>Creating email</nom>
+  </label>
+  <label id="216">
+    <nom>Sending mail</nom>
+  </label>
+  <label id="176">
+    <nom>is mandatory.</nom>
+  </label>
+  <label id="177">
+    <nom>is invalid.</nom>
+  </label>
+  <label id="196">
+    <nom>Class Level</nom>
+  </label>
+  <label id="217">
+    <nom>Error</nom>
+  </label>
+  <label id="218">
+    <nom>Level</nom>
+  </label>
+  <label id="223">
+    <nom>Very Hard</nom>
+  </label>
+  <label id="222">
+    <nom>Hard</nom>
+  </label>
+  <label id="221">
+    <nom>Middle</nom>
+  </label>
+  <label id="220">
+    <nom>Easy</nom>
+  </label>
+  <label id="219">
+    <nom>Very Easy</nom>
+  </label>
+</lang>
+

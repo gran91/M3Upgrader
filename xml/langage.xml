@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lans>
+  <lan id="1">
+    <Code>FR</Code>
+    <Nom>Français</Nom>
+  </lan>
+  <lan id="2">
+    <Code>EN</Code>
+    <Nom>Anglais</Nom>
+  </lan>
+</lans>
+

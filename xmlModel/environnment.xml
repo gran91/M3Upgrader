@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity>
+  <information id="1">
+    <name>environnment</name>
+    <idlng>9</idlng>
+    <linkentity>customer</linkentity>
+  </information>
+  <fields>
+    <field id="0">
+      <name>Name</name>
+      <idlng>108</idlng>
+      <type>2</type>
+      <length>20</length>
+      <mandatory>1</mandatory>
+      <exist>1</exist>
+      <editable>1</editable>
+      <case>0</case>
+      <table>1</table>
+    </field>
+    <field id="1">
+      <name>VersionBE</name>
+      <idlng>63</idlng>
+      <type>4</type>
+      <length>11</length>
+      <mandatory>1</mandatory>
+      <exist>1</exist>
+      <editable>1</editable>
+      <case>0</case>
+      <table>0</table>
+      <linkentity>
+        <name>m3version</name>
+        <column>1</column>
+        <editable>1</editable>
+      </linkentity>
+    </field>
+	<field id="2">
+      <name>Servertype</name>
+      <idlng>82</idlng>
+      <type>4</type>
+      <length>11</length>
+      <mandatory>1</mandatory>
+      <exist>1</exist>
+      <editable>1</editable>
+      <case>0</case>
+      <table>1</table>
+      <linkentity>
+        <name>typesys</name>
+        <column>1</column>
+        <editable>1</editable>
+      </linkentity>
+    </field>
+    <field id="3">
+      <name>Host</name>
+      <idlng>5</idlng>
+      <type>5</type>
+      <length>30</length>
+      <mandatory>1</mandatory>
+      <exist>1</exist>
+      <editable>1</editable>
+      <case>0</case>
+      <table>1</table>
+    </field>
+    <field id="4">
+      <name>Port</name>
+      <idlng>92</idlng>
+      <type>4</type>
+      <length>5</length>
+      <mandatory>1</mandatory>
+      <exist>1</exist>
+      <editable>1</editable>
+      <case>0</case>
+      <table>1</table>
+    </field>
+    <field id="5">
+      <name>LoginServerView</name>
+      <idlng>7</idlng>
+      <type>2</type>
+      <length>20</length>
+      <mandatory>0</mandatory>
+      <exist>1</exist>
+      <editable>1</editable>
+      <case>0</case>
+      <table>0</table>
+    </field>
+    <field id="6">
+      <name>PassServerView</name>
+      <idlng>8</idlng>
+      <type>0</type>
+      <length>20</length>
+      <mandatory>0</mandatory>
+      <exist>1</exist>
+      <editable>1</editable>
+      <case>0</case>
+      <table>0</table>
+    </field>
+    <field id="7">
+      <name>PathM3BE</name>
+      <idlng>98</idlng>
+      <type>7</type>
+      <length>250</length>
+      <mandatory>1</mandatory>
+      <exist>1</exist>
+      <editable>1</editable>
+      <case>0</case>
+      <table>1</table>
+    </field>
+    <field id="8">
+      <name>LoginM3BE</name>
+      <idlng>7</idlng>
+      <type>2</type>
+      <length>20</length>
+      <mandatory>0</mandatory>
+      <exist>1</exist>
+      <editable>1</editable>
+      <case>0</case>
+      <table>0</table>
+    </field>
+    <field id="9">
+      <name>PassM3BE</name>
+      <idlng>8</idlng>
+      <type>0</type>
+      <length>30</length>
+      <mandatory>0</mandatory>
+      <exist>1</exist>
+      <editable>1</editable>
+      <case>0</case>
+      <table>0</table>
+    </field>
+    <field id="10">
+      <name>PathMNE</name>
+      <idlng>181</idlng>
+      <type>7</type>
+      <length>250</length>
+      <mandatory>1</mandatory>
+      <exist>1</exist>
+      <editable>1</editable>
+      <case>0</case>
+      <table>1</table>
+    </field>
+    <field id="11">
+      <name>LoginMNE</name>
+      <idlng>7</idlng>
+      <type>2</type>
+      <length>20</length>
+      <mandatory>0</mandatory>
+      <exist>1</exist>
+      <editable>1</editable>
+      <case>0</case>
+      <table>0</table>
+    </field>
+    <field id="12">
+      <name>PassMNE</name>
+      <idlng>8</idlng>
+      <type>0</type>
+      <length>30</length>
+      <mandatory>0</mandatory>
+      <exist>1</exist>
+      <editable>1</editable>
+      <case>0</case>
+      <table>0</table>
+    </field>
+  </fields>
+</entity>
+

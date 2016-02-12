@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity>
+  <information id="1">
+    <name>m3version</name>
+    <idlng>63</idlng>
+    <linkentity />
+  </information>
+  <fields>
+    <field id="0">
+      <name>Nom</name>
+      <idlng>108</idlng>
+      <type>0</type>
+      <length>50</length>
+      <mandatory>1</mandatory>
+      <exist>1</exist>
+      <editable>1</editable>
+      <case>0</case>
+      <table>1</table>
+    </field>
+  </fields>
+</entity>
+

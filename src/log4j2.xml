@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+	<Properties>
+		<Property name="log-path">logs</Property>
+	</Properties>
+	<Appenders>
+		<Console name="console-log" target="SYSTEM_OUT">
+			<PatternLayout pattern="[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n"/>
+		</Console>
+		<RollingFile name="trace-log" fileName="${log-path}/log-trace.log"
+			filePattern="${log-path}/log-trace-%d{yyyy-MM-dd}.log">
+			<PatternLayout>
+				<pattern>[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n</pattern>
+			</PatternLayout>
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+			</Policies>
+		</RollingFile>
+		<RollingFile name="error-log" fileName="${log-path}/log-error.log"
+			filePattern="${log-path}/log-error-%d{yyyy-MM-dd}.log">
+			<PatternLayout>
+				<pattern>[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n</pattern>
+			</PatternLayout>
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+			</Policies>
+		</RollingFile>
+		<RollingFile name="trace-proc" fileName="${log-path}/logProcess-trace.log"
+			filePattern="${log-path}/logProcess-trace-%d{yyyy-MM-dd}.log">
+			<PatternLayout>
+				<pattern>[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n</pattern>
+			</PatternLayout>
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+			</Policies>
+		</RollingFile>
+		<RollingFile name="error-proc" fileName="${log-path}/logProcess-error.log"
+			filePattern="${log-path}/logProcess-error-%d{yyyy-MM-dd}.log">
+			<PatternLayout>
+				<pattern>[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n</pattern>
+			</PatternLayout>
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+			</Policies>
+		</RollingFile>
+	</Appenders>
+	<Loggers>
+		<Logger name="main" additivity="false">
+			<appender-ref ref="trace-log" level="trace"/>
+			<appender-ref ref="error-log" level="error"/>
+			<appender-ref ref="console-log" level="debug"/>
+		</Logger>
+		<Logger name="process" additivity="false">
+			<appender-ref ref="trace-proc" level="trace"/>
+			<appender-ref ref="error-proc" level="error"/>
+		</Logger>
+		<Root level="info" additivity="false">
+			<AppenderRef ref="console-log"/>
+		</Root>
+	</Loggers>
+</Configuration>

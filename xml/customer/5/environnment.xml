@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<envs>
+  <env id="1">
+    <Name>DEV</Name>
+    <VersionBE>-1</VersionBE>
+    <Servertype>-1</Servertype>
+    <Host>192.168.233.106</Host>
+    <Port>26666</Port>
+    <LoginServerView>M3TECSVADM</LoginServerView>
+    <PassServerView />
+    <PathM3BE>Z:\M3BE</PathM3BE>
+    <LoginM3BE>M3SRVADM</LoginM3BE>
+    <PassM3BE>M310SRVADM</PassM3BE>
+    <PathMNE>V:\Lawson\MNE_Data_DEV</PathMNE>
+    <LoginMNE />
+    <PassMNE />
+  </env>
+</envs>
+

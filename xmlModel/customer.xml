@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity>
+  <information id="1">
+    <name>Customer</name>
+    <idlng>54</idlng>
+    <linkentity />
+  </information>
+  <fields>
+    <field id="0">
+      <name>Nom</name>
+      <idlng>108</idlng>
+      <type>0</type>
+      <length>50</length>
+      <mandatory>1</mandatory>
+      <exist>1</exist>
+      <editable>1</editable>
+      <case>0</case>
+      <table>1</table>
+    </field>
+	<field id="1">
+      <name>Code</name>
+      <idlng>38</idlng>
+      <type>1</type>
+      <length>2</length>
+      <mandatory>1</mandatory>
+      <exist>1</exist>
+      <editable>1</editable>
+      <case>1</case>
+      <table>1</table>
+	  <linkentity>
+        <name>langage</name>
+        <column>1</column>
+        <editable>1</editable>
+      </linkentity>
+    </field>
+  </fields>
+</entity>
+

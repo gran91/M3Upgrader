@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<envs>
+  <env id="3">
+    <Name>PREP</Name>
+    <VersionBE>1</VersionBE>
+    <Servertype>1</Servertype>
+    <Host>172.26.115.91</Host>
+    <Port>26666</Port>
+    <LoginServerView />
+    <PassServerView />
+    <PathM3BE>Z:\M3BE</PathM3BE>
+    <LoginM3BE />
+    <PassM3BE />
+    <PathMNE>C:\Users\jeremy.chaut\Documents</PathMNE>
+    <LoginMNE />
+    <PassMNE />
+  </env>
+  <env id="4">
+    <Name>PR14</Name>
+    <VersionBE>3</VersionBE>
+    <Servertype>1</Servertype>
+    <Host>172.26.115.28</Host>
+    <Port>11666</Port>
+    <LoginServerView />
+    <PassServerView />
+    <PathM3BE>Y:\M3BE</PathM3BE>
+    <LoginM3BE />
+    <PassM3BE />
+    <PathMNE />
+    <LoginMNE />
+    <PassMNE />
+  </env>
+  <env id="5">
+    <Name>PRE</Name>
+    <VersionBE>3</VersionBE>
+    <Servertype>1</Servertype>
+    <Host>172.26.115.91</Host>
+    <Port>16805</Port>
+    <LoginServerView>M3SRVADM</LoginServerView>
+    <PassServerView>M371ADM</PassServerView>
+    <PathM3BE>Z:\M3BE15</PathM3BE>
+    <LoginM3BE />
+    <PassM3BE />
+    <PathMNE />
+    <LoginMNE />
+    <PassMNE />
+  </env>
+  <env id="2">
+    <Name>DVLP</Name>
+    <VersionBE>1</VersionBE>
+    <Servertype>1</Servertype>
+    <Host>172.26.115.91</Host>
+    <Port>36666</Port>
+    <LoginServerView />
+    <PassServerView />
+    <PathM3BE>Y:\M3BE</PathM3BE>
+    <LoginM3BE />
+    <PassM3BE />
+    <PathMNE>C:\Users\jeremy.chaut\Documents</PathMNE>
+    <LoginMNE />
+    <PassMNE />
+  </env>
+</envs>
+

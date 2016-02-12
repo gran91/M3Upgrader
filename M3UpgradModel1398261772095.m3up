@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<m3upgrade>
+  <envs id="1">
+    <customer>1</customer>
+    <envsrc>2</envsrc>
+    <envtarg>-1</envtarg>
+  </envs>
+  <Config>
+    <configId>ALS</configId>
+    <selected>1</selected>
+    <under>0</under>
+    <underselected>0</underselected>
+  </Config>
+  <Config>
+    <configId>CERG</configId>
+    <selected>0</selected>
+    <under>1</under>
+    <underselected>1</underselected>
+  </Config>
+  <Config>
+    <configId>MVX</configId>
+    <selected>0</selected>
+    <under>1</under>
+    <underselected>1</underselected>
+  </Config>
+  <ActionNumber>
+    <actionumberId>MIGRATION</actionumberId>
+  </ActionNumber>
+  <User>
+    <userId>JCHAUT</userId>
+    <userselected>0</userselected>
+  </User>
+  <User>
+    <userId>PKHAM</userId>
+    <userselected>1</userselected>
+  </User>
+  <User>
+    <userId>MBOURCET</userId>
+    <userselected>1</userselected>
+  </User>
+  <Data>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALO613.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\HFix\mvx\app\pgm\customer\ALO613.class</Classpath>
+      <Type>Pur spé</Type>
+      <Superclass>HFix</Superclass>
+      <Standardlevel>Batch</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>ALO613OUT.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\HFix\mvx\app\ds\ALO613OUT.class</Classpath>
+      <Type>Pur spé</Type>
+      <Superclass>HFix</Superclass>
+      <Standardlevel>OutInterface</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Database Interface</Classtype>
+      <ClassName>ZSLLNK.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\HFix\mvx\app\db\ZSLLNK.class</Classpath>
+      <Type>Pur spé</Type>
+      <Superclass>HFix</Superclass>
+      <Standardlevel>DatabaseInterface</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Out Interface</Classtype>
+      <ClassName>ALO613DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\HFix\mvx\app\ds\ALO613DSP.class</Classpath>
+      <Type>Pur spé</Type>
+      <Superclass>HFix</Superclass>
+      <Standardlevel>Interactive</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+  </Data>
+</m3upgrade>
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cuss>
+  <cus id="1">
+    <Nom>Alehos</Nom>
+    <Code>1</Code>
+  </cus>
+  <cus id="2">
+    <Nom>STEPUP</Nom>
+    <Code>1</Code>
+  </cus>
+  <cus id="3">
+    <Nom>TOTO</Nom>
+    <Code>1</Code>
+  </cus>
+  <cus id="4">
+    <Nom>Chanel</Nom>
+    <Code>1</Code>
+  </cus>
+  <cus id="5">
+    <Nom>Clarins</Nom>
+    <Code>1</Code>
+  </cus>
+  <cus id="6">
+    <Nom>Dior</Nom>
+    <Code>1</Code>
+  </cus>
+  <cus id="7">
+    <Nom>Hermès</Nom>
+    <Code>1</Code>
+  </cus>
+  <cus id="8">
+    <Nom>EquipAero</Nom>
+    <Code>1</Code>
+  </cus>
+</cuss>
+

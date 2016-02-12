@@ -1,0 +1,4424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<m3upgrade>
+  <envs id="1">
+    <customer>1</customer>
+    <envsrc>2</envsrc>
+    <envtarg>-1</envtarg>
+  </envs>
+  <Config>
+    <configId>ALS</configId>
+    <selected>1</selected>
+    <under>0</under>
+    <underselected>0</underselected>
+  </Config>
+  <Config>
+    <configId>CERG</configId>
+    <selected>0</selected>
+    <under>1</under>
+    <underselected>1</underselected>
+  </Config>
+  <Config>
+    <configId>MVX</configId>
+    <selected>0</selected>
+    <under>1</under>
+    <underselected>1</underselected>
+  </Config>
+  <ActionNumber>
+    <actionumberId />
+  </ActionNumber>
+  <User>
+    <userId>JCHAUT</userId>
+    <userselected>1</userselected>
+  </User>
+  <User>
+    <userId>PKHAM</userId>
+    <userselected>1</userselected>
+  </User>
+  <User>
+    <userId>MBOURCET</userId>
+    <userselected>1</userselected>
+  </User>
+  <Data>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sALS136DS.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\ds\sALS136DS.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sWMZ100MIRSetUser.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\ds\sWMZ100MIRSetUser.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sALZ709DS.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\ds\sALZ709DS.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sALZMS2DS.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\ds\sALZMS2DS.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sGLZ535DS.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\ds\sGLZ535DS.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sWMZ100MISLstWarehouses.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\ds\sWMZ100MISLstWarehouses.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sMMZ010.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\ds\sMMZ010.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sZOT100DS.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\ds\sZOT100DS.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sOIZ100DS.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\ds\sOIZ100DS.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sALZ613MISMaterial.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\ds\sALZ613MISMaterial.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sALZ422DS.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\ds\sALZ422DS.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>false</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sWMZ100MIRLstQCMoveTrans.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\ds\sWMZ100MIRLstQCMoveTrans.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sWMZ100MIRCrtWMSession.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\ds\sWMZ100MIRCrtWMSession.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sALZ613MIRMission.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\ds\sALZ613MIRMission.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sWMZ100MIRPrcQCMoveTrans.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\ds\sWMZ100MIRPrcQCMoveTrans.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sWMZ100MISLstUsers.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\ds\sWMZ100MISLstUsers.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sWMZ100MIRLstFacilities.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\ds\sWMZ100MIRLstFacilities.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sWMZ100MISCrtWMSession.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\ds\sWMZ100MISCrtWMSession.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sWMZ100MIRLstUsers.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\ds\sWMZ100MIRLstUsers.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sWMZ100MIRSetWarehouse.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\ds\sWMZ100MIRSetWarehouse.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sALZ613MIRMedical.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\ds\sALZ613MIRMedical.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sZZZ001MIRMission.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\ds\sZZZ001MIRMission.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sWMZ100MIRSetFacility.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\ds\sWMZ100MIRSetFacility.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sWMZ100MIRLstWarehouses.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\ds\sWMZ100MIRLstWarehouses.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sWMZ100MISLstQCMoveTrans.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\ds\sWMZ100MISLstQCMoveTrans.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sWMZ100MISLstFacilities.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\ds\sWMZ100MISLstFacilities.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sALZ613MISAgency.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\ds\sALZ613MISAgency.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sALZ613MISPatient.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\ds\sALZ613MISPatient.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sALZ613MISMedical.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\ds\sALZ613MISMedical.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sALZ613MISMission.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\ds\sALZ613MISMission.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALJ999.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ALJ999.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Interactive</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>MMMNGRCL.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\MMMNGRCL.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Batch</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALX193.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ALX193.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Batch</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>BLZ630.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\BLZ630.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Interactive</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALY551C2.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ALY551C2.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>MvxCL</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>SVI020.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\SVI020.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Print</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALY597.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ALY597.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Batch</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALY603.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ALY603.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Interactive</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ZNEO01.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ZNEO01.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Interactive</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALZ012.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ALZ012.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Interactive</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALZ767.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ALZ767.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Batch</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALZ096.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ALZ096.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Batch</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>CUTOF3.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\CUTOF3.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Batch</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALZ199S1.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ALZ199S1.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Batch</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALZ367sv.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ALZ367sv.class</Classpath>
+      <Error>mvx/app/pgm/customer/ALZ367sv (wrong name: mvx/app/pgm/customer/ALZ367)</Error>
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass />
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>false</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALZ368.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ALZ368.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Interactive</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>EMZ131.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\EMZ131.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Interactive</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>APS110.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\APS110.class</Classpath>
+      <Error />
+      <Type>Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>APS110</Superclass>
+      <Standardlevel />
+      <Source>true</Source>
+      <Field />
+      <Level>3</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALZ613MI.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ALZ613MI.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>ZGENERMI</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>CRZ096.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\CRZ096.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Interactive</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALZ481REC.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ALZ481REC.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Batch</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALZ515.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ALZ515.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Interactive</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALZ706.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ALZ706.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Batch</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALZ709.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ALZ709.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Interactive</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALZ709CL.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ALZ709CL.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Batch</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALZ712.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ALZ712.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Batch</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALZ792.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ALZ792.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Interactive</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALZ879.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ALZ879.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Interactive</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALZ880.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ALZ880.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Batch</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALZ880CL.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ALZ880CL.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>MvxCL</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALZ881.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ALZ881.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Interactive</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALZMS2.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ALZMS2.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Batch</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALZMSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ALZMSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Batch</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>WMZ200.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\WMZ200.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Interactive</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>APS112.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\APS112.class</Classpath>
+      <Error />
+      <Type>Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>APS112</Superclass>
+      <Standardlevel />
+      <Source>true</Source>
+      <Field />
+      <Level>2</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>APS516CL.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\APS516CL.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>MvxCL</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>APZ054.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\APZ054.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Interactive</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>false</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>APZ054CL.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\APZ054CL.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>MvxCL</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>false</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ARS200.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ARS200.class</Classpath>
+      <Error />
+      <Type>Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>ARS200</Superclass>
+      <Standardlevel />
+      <Source>false</Source>
+      <Field />
+      <Level>4</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ARS301.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ARS301.class</Classpath>
+      <Error />
+      <Type>Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>ARS301</Superclass>
+      <Standardlevel />
+      <Source>true</Source>
+      <Field />
+      <Level>1</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>CCLCCUR.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\CCLCCUR.class</Classpath>
+      <Error />
+      <Type>Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>CCLCCUR</Superclass>
+      <Standardlevel>base</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>1</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>CTRIGGJ.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\CTRIGGJ.class</Classpath>
+      <Error />
+      <Type>Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>CTRIGGJ</Superclass>
+      <Standardlevel />
+      <Source>true</Source>
+      <Field />
+      <Level>2</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALS130.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ALS130.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Interactive</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>SOS941.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\SOS941.class</Classpath>
+      <Error />
+      <Type>Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>SOS941</Superclass>
+      <Standardlevel />
+      <Source>true</Source>
+      <Field />
+      <Level>3</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALX619.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ALX619.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Print</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>GLZ915CL.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\GLZ915CL.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>MvxCL</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>JMD550.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\JMD550.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Interactive</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>MAJDAT.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\MAJDAT.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Batch</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>SpecialChar.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\SpecialChar.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Object</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>MMS025.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\MMS025.class</Classpath>
+      <Error />
+      <Type>Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>MMS025</Superclass>
+      <Standardlevel />
+      <Source>true</Source>
+      <Field />
+      <Level>1</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>MMS921.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\MMS921.class</Classpath>
+      <Error />
+      <Type>Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>MMS921</Superclass>
+      <Standardlevel />
+      <Source>true</Source>
+      <Field />
+      <Level>1</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>OIZ100.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\OIZ100.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Interactive</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALZFAC.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ALZFAC.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Print</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>OOLINETI.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\OOLINETI.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Batch</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>OOLINEVI.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\OOLINEVI.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>OOLINETI</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>POWEBS.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\POWEBS.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericCPY</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>PPS922.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\PPS922.class</Classpath>
+      <Error />
+      <Type>Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>PPS922</Superclass>
+      <Standardlevel>base</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>1</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>REAITM.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\REAITM.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Batch</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>RGBSTD.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\RGBSTD.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Batch</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>RGOLIN.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\RGOLIN.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Batch</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>SOS225.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\SOS225.class</Classpath>
+      <Error />
+      <Type>Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>SOS225</Superclass>
+      <Standardlevel />
+      <Source>true</Source>
+      <Field />
+      <Level>2</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>TESELG.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\TESELG.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Interactive</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>TESTPO.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\TESTPO.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Interactive</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>TOLINEPI.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\TOLINEPI.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Batch</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>YVVDOC.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\YVVDOC.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Interactive</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ZBATCH.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ZBATCH.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Batch</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ZCDCUS.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ZCDCUS.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Interactive</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>EMZ130.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\EMZ130.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Interactive</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ZCUSRE.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ZCUSRE.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Interactive</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ZPATPR.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ZPATPR.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Interactive</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ZPDFTO.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ZPDFTO.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericCPY</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ZRECUS.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ZRECUS.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Interactive</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ZZZ130.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ZZZ130.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Interactive</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>BLZ631.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\BLZ631.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Print</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ZZAIT6.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ZZAIT6.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Batch</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ZZZ612.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ZZZ612.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>ZZZ621</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ZZZ621.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ZZZ621.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Print</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALZ290.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ALZ290.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Interactive</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALZ292.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ALZ292.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Batch</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>BLZ631CL.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\BLZ631CL.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>MvxCL</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>EMZ133.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\EMZ133.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Interactive</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALZ401CL.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ALZ401CL.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>MvxCL</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>OIS392.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\OIS392.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Interactive</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALZM50.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ALZM50.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Batch</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>EMS995.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\EMS995.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Batch</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>OIS060MI.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\OIS060MI.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>MIBatch</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ARZ176.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ARZ176.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Interactive</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>XYZ005MI.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\XYZ005MI.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>zMIBase</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>SOS640.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\SOS640.class</Classpath>
+      <Error />
+      <Type>Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>SOS640</Superclass>
+      <Standardlevel />
+      <Source>true</Source>
+      <Field />
+      <Level>4</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>OIS061MI.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\OIS061MI.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>MIBatch</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ZSEN30MI.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ZSEN30MI.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>ZGENERMI</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>OIZ060MI.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\OIZ060MI.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>zMIBase</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ZTS937.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ZTS937.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Batch</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>zMIBase.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\zMIBase.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>MIBatch</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>OIZ061MI.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\OIZ061MI.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>zMIBase</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>WMZ010.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\WMZ010.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Interactive</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>CRZ620MI.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\CRZ620MI.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>zMIBase</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>WMZ020.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\WMZ020.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Interactive</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>CRZ622MI.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\CRZ622MI.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>zMIBase</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALZ422Z.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ALZ422Z.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Interactive</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ZNEO02.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ZNEO02.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Interactive</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>OIS391.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\OIS391.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Interactive</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>URL378.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\URL378.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Applet</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ZITGMJ.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ZITGMJ.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Batch</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>MMS900.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\MMS900.class</Classpath>
+      <Error />
+      <Type>Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>MMS900</Superclass>
+      <Standardlevel />
+      <Source>true</Source>
+      <Field />
+      <Level>1</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALZ777.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ALZ777.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Batch</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALZ485.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ALZ485.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Interactive</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ARZ175.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ARZ175.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Interactive</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALZ475O.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\ALZ475O.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Interactive</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>WMZ100.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\app\pgm\customer\WMZ100.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>Interactive</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Database Interface</Classtype>
+      <ClassName>dALSMAX.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\db\def\dALSMAX.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDef</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Database Interface</Classtype>
+      <ClassName>dSSJOBH.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\db\def\dSSJOBH.class</Classpath>
+      <Error />
+      <Type>Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDef</Superclass>
+      <Standardlevel />
+      <Source>true</Source>
+      <Field />
+      <Level>2</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Database Interface</Classtype>
+      <ClassName>dZPAPRE.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\db\def\dZPAPRE.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDef</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Database Interface</Classtype>
+      <ClassName>dALOCPL.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\db\def\dALOCPL.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDef</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Database Interface</Classtype>
+      <ClassName>dZCDOCP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\db\def\dZCDOCP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDef</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Database Interface</Classtype>
+      <ClassName>dZDOCPL.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\db\def\dZDOCPL.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDef</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Database Interface</Classtype>
+      <ClassName>dZHOCPL.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\db\def\dZHOCPL.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDef</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Database Interface</Classtype>
+      <ClassName>dZXIGRM.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\db\def\dZXIGRM.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDef</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Database Interface</Classtype>
+      <ClassName>dZXEXCL.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\db\def\dZXEXCL.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDef</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Database Interface</Classtype>
+      <ClassName>ALSMAX.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\db\dta\ALSMAX.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericMDB</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Database Interface</Classtype>
+      <ClassName>SSJOBH.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\db\dta\SSJOBH.class</Classpath>
+      <Error />
+      <Type>Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericMDB</Superclass>
+      <Standardlevel />
+      <Source>true</Source>
+      <Field />
+      <Level>4</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Database Interface</Classtype>
+      <ClassName>ZPAPRE.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\db\dta\ZPAPRE.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericMDB</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Database Interface</Classtype>
+      <ClassName>ALOCPL.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\db\dta\ALOCPL.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericMDB</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Database Interface</Classtype>
+      <ClassName>ZCDOCP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\db\dta\ZCDOCP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericMDB</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Database Interface</Classtype>
+      <ClassName>ZDOCPL.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\db\dta\ZDOCPL.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericMDB</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Database Interface</Classtype>
+      <ClassName>ZHOCPL.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\db\dta\ZHOCPL.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericMDB</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Database Interface</Classtype>
+      <ClassName>ZXIGRM.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\db\dta\ZXIGRM.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericMDB</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>AES040DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\AES040DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>ALS112DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\ALS112DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>ALT510DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\ALT510DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>WMZ100DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\WMZ100DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>ALZ022DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\ALZ022DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>ALZ047DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\ALZ047DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>ALZ106DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\ALZ106DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>ALZ250DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\ALZ250DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>ALZ368DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\ALZ368DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>ZNEO02DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\ZNEO02DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>ALZ379DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\ALZ379DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>ALZ422SL1DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\ALZ422SL1DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>ALZ475SL2DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\ALZ475SL2DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>ALZ492DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\ALZ492DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>ALZ551DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\ALZ551DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>ALZ709DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\ALZ709DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>ALZ792DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\ALZ792DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>ALZ881DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\ALZ881DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>APS121DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\APS121DSP.class</Classpath>
+      <Error />
+      <Type>Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel />
+      <Source>true</Source>
+      <Field />
+      <Level>4</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>APZ054DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\APZ054DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>APZ110DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\APZ110DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>ARX200DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\ARX200DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>ARY200DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\ARY200DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>ARZ040DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\ARZ040DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>ARZ155DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\ARZ155DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>CRS040DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\CRS040DSP.class</Classpath>
+      <Error />
+      <Type>Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel />
+      <Source>true</Source>
+      <Field />
+      <Level>4</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>CRS095DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\CRS095DSP.class</Classpath>
+      <Error />
+      <Type>Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>base</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>4</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>CRT406DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\CRT406DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>DUPA50DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\DUPA50DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>EMZ131DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\EMZ131DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>CRZ096DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\CRZ096DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>MTZ100DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\MTZ100DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>ALZ415DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\ALZ415DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>EMS13BDSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\EMS13BDSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>GLS120DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\GLS120DSP.class</Classpath>
+      <Error />
+      <Type>Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel />
+      <Source>true</Source>
+      <Field />
+      <Level>4</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>GLS210DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\GLS210DSP.class</Classpath>
+      <Error />
+      <Type>Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel />
+      <Source>true</Source>
+      <Field />
+      <Level>4</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>GLZ210DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\GLZ210DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>JMD550DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\JMD550DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>MWS060DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\MWS060DSP.class</Classpath>
+      <Error />
+      <Type>Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>base</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>3</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>OIY400DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\OIY400DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>SAV151DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\SAV151DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>SHS010DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\SHS010DSP.class</Classpath>
+      <Error />
+      <Type>Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel />
+      <Source>true</Source>
+      <Field />
+      <Level>3</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>SOS280DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\SOS280DSP.class</Classpath>
+      <Error />
+      <Type>Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel />
+      <Source>true</Source>
+      <Field />
+      <Level>4</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>SOS500DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\SOS500DSP.class</Classpath>
+      <Error />
+      <Type>Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel />
+      <Source>true</Source>
+      <Field />
+      <Level>4</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>TAS112DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\TAS112DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>TE3112DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\TE3112DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>TES040DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\TES040DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>TES050DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\TES050DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>TES112DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\TES112DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>TES515DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\TES515DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>TESELGDSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\TESELGDSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>TEST50DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\TEST50DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>TESTPODSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\TESTPODSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>TNOA50DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\TNOA50DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>TPS110DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\TPS110DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>TPS112DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\TPS112DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>TPS200DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\TPS200DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>TRS112DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\TRS112DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>TST210DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\TST210DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>YSAV01DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\YSAV01DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>YVDOC9DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\YVDOC9DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>ZCDCUSDSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\ZCDCUSDSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>ARZ176DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\ARZ176DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>ZIG010DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\ZIG010DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>ZPATPRDSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\ZPATPRDSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>ZRECUSDSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\ZRECUSDSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>ZRIV01DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\ZRIV01DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>ALZ485DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\ALZ485DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>ZZF020DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\ZZF020DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>ZZT040DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\ZZT040DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>EMZ130DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\EMZ130DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>EMZ133DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\EMZ133DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>ALS130DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\ALS130DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>ZZZ130DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\ZZZ130DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>ARZ175DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\ARZ175DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>WMZ020DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\WMZ020DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>ALZ366DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\ALZ366DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>ZNEO01DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\ZNEO01DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>ZSEN21DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\ZSEN21DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>ALS130DSP_SAVE.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\ALS130DSP_SAVE.class</Classpath>
+      <Error>mvx/dsp/obj/ALS130DSP_SAVE (wrong name: mvx/dsp/obj/ALS130DSP)</Error>
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass />
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>false</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>WMZ200DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\WMZ200DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>WMZ010DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\WMZ010DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>View Definition</Classtype>
+      <ClassName>ALZ756DSP.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\dsp\obj\ALZ756DSP.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericDSP</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Out Interface</Classtype>
+      <ClassName>ALY591OUT.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\out\obj\ALY591OUT.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericOUT</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Out Interface</Classtype>
+      <ClassName>ZZZ621OUT.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\out\obj\ZZZ621OUT.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericOUT</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Out Interface</Classtype>
+      <ClassName>BLZ631OUT.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\out\obj\BLZ631OUT.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericOUT</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Out Interface</Classtype>
+      <ClassName>ALX618OUT.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\HFix\bindbg\mvx\out\obj\ALX618OUT.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>HFix</ClassLevel>
+      <Superclass>GenericOUT</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sALZ137DS.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\VFix\bindbg\mvx\app\ds\sALZ137DS.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>VFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sALZ280DS.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\VFix\bindbg\mvx\app\ds\sALZ280DS.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>VFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sALZINTDS.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\VFix\bindbg\mvx\app\ds\sALZINTDS.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>VFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sDSITGRdeprecated.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\VFix\bindbg\mvx\app\ds\sDSITGRdeprecated.class</Classpath>
+      <Error>mvx/app/ds/sDSITGRdeprecated (wrong name: mvx/app/ds/sDSITGR)</Error>
+      <Type>Pur Specifique</Type>
+      <ClassLevel>VFix</ClassLevel>
+      <Superclass />
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>false</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sEMS700DS.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\VFix\bindbg\mvx\app\ds\sEMS700DS.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>VFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sALZ362DS.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\VFix\bindbg\mvx\app\ds\sALZ362DS.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>VFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sZSEN30MISWeekMonth.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\VFix\bindbg\mvx\app\ds\sZSEN30MISWeekMonth.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>VFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sZSEN30MISCR.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\VFix\bindbg\mvx\app\ds\sZSEN30MISCR.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>VFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sZSEN30MIRWeekMonth.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\VFix\bindbg\mvx\app\ds\sZSEN30MIRWeekMonth.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>VFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sZSEN30MIRCR.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\VFix\bindbg\mvx\app\ds\sZSEN30MIRCR.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>VFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sZSEN30MISAverage.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\VFix\bindbg\mvx\app\ds\sZSEN30MISAverage.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>VFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sZSEN30MIRAverage.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\VFix\bindbg\mvx\app\ds\sZSEN30MIRAverage.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>VFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sZOT001DS.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\VFix\bindbg\mvx\app\ds\sZOT001DS.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>VFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sZLFR80DS.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\VFix\bindbg\mvx\app\ds\sZLFR80DS.class</Classpath>
+      <Error />
+      <Type>Specifique</Type>
+      <ClassLevel>VFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>VFix</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>4</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sALZ268DS.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\VFix\bindbg\mvx\app\ds\sALZ268DS.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>VFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sALZ185MIgetBlocByOrnoOut.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\VFix\bindbg\mvx\app\ds\sALZ185MIgetBlocByOrnoOut.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>VFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sALZ185MIgetCunoByNoSSIn.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\VFix\bindbg\mvx\app\ds\sALZ185MIgetCunoByNoSSIn.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>VFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sALZ185MIgetCunoByNoSSOut.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\VFix\bindbg\mvx\app\ds\sALZ185MIgetCunoByNoSSOut.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>VFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sALZ185MIgetBlocByOrnoIn.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\VFix\bindbg\mvx\app\ds\sALZ185MIgetBlocByOrnoIn.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>VFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sALZ185MOBlocByOrno.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\VFix\bindbg\mvx\app\ds\sALZ185MOBlocByOrno.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>VFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sALZ185MOCunoByNoSS.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\VFix\bindbg\mvx\app\ds\sALZ185MOCunoByNoSS.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>VFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sALZ185MIBlocByOrno.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\VFix\bindbg\mvx\app\ds\sALZ185MIBlocByOrno.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>VFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sALZ185MICunoByNoSS.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\VFix\bindbg\mvx\app\ds\sALZ185MICunoByNoSS.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>VFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sWMZ100MIRdltWMSession.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\VFix\bindbg\mvx\app\ds\sWMZ100MIRdltWMSession.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>VFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sWMZ100MISDltWMSession.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\VFix\bindbg\mvx\app\ds\sWMZ100MISDltWMSession.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>VFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sALZ801DS.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\VFix\bindbg\mvx\app\ds\sALZ801DS.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>VFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sZSEN17MIRlistObserv.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\VFix\bindbg\mvx\app\ds\sZSEN17MIRlistObserv.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>VFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sZSEN17MISlistObserv.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\VFix\bindbg\mvx\app\ds\sZSEN17MISlistObserv.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>VFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sZSEN17MIRmoyenneObserv.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\VFix\bindbg\mvx\app\ds\sZSEN17MIRmoyenneObserv.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>VFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Data Structure</Classtype>
+      <ClassName>sZSEN17MISmoyenneObserv.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\VFix\bindbg\mvx\app\ds\sZSEN17MISmoyenneObserv.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>VFix</ClassLevel>
+      <Superclass>GenericDS</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALS601CL.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\VFix\bindbg\mvx\app\pgm\customer\ALS601CL.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>VFix</ClassLevel>
+      <Superclass>MvxCL</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>false</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALSM40.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\VFix\bindbg\mvx\app\pgm\customer\ALSM40.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>VFix</ClassLevel>
+      <Superclass>Batch</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALSM41.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\VFix\bindbg\mvx\app\pgm\customer\ALSM41.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>VFix</ClassLevel>
+      <Superclass>Batch</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALSM50.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\VFix\bindbg\mvx\app\pgm\customer\ALSM50.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>VFix</ClassLevel>
+      <Superclass>Batch</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALSM51.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\VFix\bindbg\mvx\app\pgm\customer\ALSM51.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>VFix</ClassLevel>
+      <Superclass>Batch</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALSM5C.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\VFix\bindbg\mvx\app\pgm\customer\ALSM5C.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>VFix</ClassLevel>
+      <Superclass>Batch</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALT02B.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\VFix\bindbg\mvx\app\pgm\customer\ALT02B.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>VFix</ClassLevel>
+      <Superclass>Print</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALWM51.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\VFix\bindbg\mvx\app\pgm\customer\ALWM51.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>VFix</ClassLevel>
+      <Superclass>Batch</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALX547.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\VFix\bindbg\mvx\app\pgm\customer\ALX547.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>VFix</ClassLevel>
+      <Superclass>Batch</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALX612.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\VFix\bindbg\mvx\app\pgm\customer\ALX612.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>VFix</ClassLevel>
+      <Superclass>Print</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALX613.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\VFix\bindbg\mvx\app\pgm\customer\ALX613.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>VFix</ClassLevel>
+      <Superclass>Print</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALX613B.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\VFix\bindbg\mvx\app\pgm\customer\ALX613B.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>VFix</ClassLevel>
+      <Superclass>ALX613</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALY025.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\VFix\bindbg\mvx\app\pgm\customer\ALY025.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>VFix</ClassLevel>
+      <Superclass>Interactive</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALY500.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\VFix\bindbg\mvx\app\pgm\customer\ALY500.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>VFix</ClassLevel>
+      <Superclass>Interactive</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALY510.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\VFix\bindbg\mvx\app\pgm\customer\ALY510.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>VFix</ClassLevel>
+      <Superclass>Interactive</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALY552CL.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\VFix\bindbg\mvx\app\pgm\customer\ALY552CL.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>VFix</ClassLevel>
+      <Superclass>MvxCL</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALY570.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\VFix\bindbg\mvx\app\pgm\customer\ALY570.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>VFix</ClassLevel>
+      <Superclass>Interactive</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+    <Id>
+      <Classtype>Program</Classtype>
+      <ClassName>ALY570A.class</ClassName>
+      <Classpath>Z:\M3BE\env\DVLP\Fix\ALS\VFix\bindbg\mvx\app\pgm\customer\ALY570A.class</Classpath>
+      <Error />
+      <Type>Pur Specifique</Type>
+      <ClassLevel>VFix</ClassLevel>
+      <Superclass>Interactive</Superclass>
+      <Standardlevel>FND</Standardlevel>
+      <Source>true</Source>
+      <Field />
+      <Level>0</Level>
+      <Tomigrate>true</Tomigrate>
+      <WorkspaceUser />
+    </Id>
+  </Data>
+</m3upgrade>
+
