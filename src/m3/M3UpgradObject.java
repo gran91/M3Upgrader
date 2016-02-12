@@ -312,7 +312,7 @@ public class M3UpgradObject {
         return null;
     }
 
-    private int compareM3DS(FileObject[] filesrc, FileObject[] fileTarg) {
+    private  int compareM3DS(FileObject[] filesrc, FileObject[] fileTarg) {
         DSXmlBuilder dsSrc = new DSXmlBuilder();
         DSXmlBuilder dsTarg = new DSXmlBuilder();
         //standard source 

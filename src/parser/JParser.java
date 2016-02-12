@@ -31,6 +31,8 @@ public class JParser {
         listVariable.clear();
         try {
             cu = JavaParser.parse(in,"UTF-8");
+            listMethod();
+            listField();
         } finally {
             in.close();
         }
