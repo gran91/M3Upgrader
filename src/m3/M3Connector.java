@@ -5,6 +5,7 @@
 package m3;
 
 import com.app.main.Ressource;
+import com.app.model.m3.M3ClassPathFileZ;
 import com.app.process.Process;
 import com.intentia.mak.core.m3.classpath.M3ClassPathEntry;
 import java.io.IOException;
@@ -78,8 +79,7 @@ public class M3Connector extends Observable {
 
             ZUserCredentialsProvider credentialsProvider = new ZUserCredentialsProvider();
             credentialsProvider.setUserPwd(new UsernamePasswordCredentials(env.getData().get(5), env.getData().get(6)));
-            m3Runtime = M3RuntimeFactory.getRuntime(e.getServerRootPath().toString(), e.getServerAddress(), e.getServerPort(),
-                    credentialsProvider);
+            m3Runtime = M3RuntimeFactory.getRuntime(e.getServerRootPath().toString(), e.getServerAddress(), e.getServerPort(), credentialsProvider);
             initOK = true;
         }
     }
@@ -112,15 +112,51 @@ public class M3Connector extends Observable {
     public M3ClassPathEntry[] listClassPathConfig(String config) throws MAKException {
         if (map.containsKey(config)) {
             M3ConfigurationInfo confInfo = map.get(config);
-            m3Runtime.getClassPath(config);
             ConfigurationProperties configurationProperties = new ConfigurationProperties();
             configurationProperties.setName(confInfo.getName());
             configurationProperties.setDescription(confInfo.getDescription());
-            configurationProperties.setClassPath(m3Runtime.getClassPath(configurationProperties.getName()));
-            MovexSystem mvxSys = MovexSystemFactory.newMovexSystem(e, configurationProperties, null);
-            return mvxSys.getClasspath();
+            if (m3Runtime != null) {
+                m3Runtime.getClassPath(config);
+                configurationProperties.setClassPath(m3Runtime.getClassPath(configurationProperties.getName()));
+                MovexSystem mvxSys = MovexSystemFactory.newMovexSystem(e, configurationProperties, null);
+                return mvxSys.getClasspath();
+            } else {
+                return classPathAppendToM3ClassPath(configurationProperties.getClassPath());
+            }
         }
         return null;
+    }
+
+    public M3ClassPathEntry[] classPathAppendToM3ClassPath(String s) {
+        String[] tab = s.split(";");
+        M3ClassPathEntry[] lstClassPath = new M3ClassPathEntry[tab.length];
+        for (int i = 0; i < tab.length; i++) {
+            lstClassPath[i] = new M3ClassPathEntry(new M3ClassPathFileZ(tab[i]));
+        }
+        return lstClassPath;
+    }
+
+    public M3ClassPathEntry[] addClassPathToConfig(String config, ArrayList<String> a) throws MAKException {
+        M3ClassPathEntry[] lstClassPath = new M3ClassPathEntry[a.size()];
+        if (map.containsKey(config)) {
+            M3ConfigurationInfo confInfo = map.get(config);
+            ConfigurationProperties configurationProperties = new ConfigurationProperties();
+            configurationProperties.setName(confInfo.getName());
+            configurationProperties.setDescription(confInfo.getDescription());
+            if (m3Runtime != null) {
+                m3Runtime.getClassPath(config);
+                configurationProperties.setClassPath(m3Runtime.getClassPath(configurationProperties.getName()));
+            } else {
+                String path = "";
+
+                for (int i = 0; i < a.size(); i++) {
+                    path += a + ";";
+                    lstClassPath[i] = new M3ClassPathEntry(new M3ClassPathFileZ(path));
+                }
+                configurationProperties.setClassPath(path);
+            }
+        }
+        return lstClassPath;
     }
 
     public MovexSystem getM3System(String config) throws MAKException {
