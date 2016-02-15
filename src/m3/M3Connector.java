@@ -134,7 +134,7 @@ public class M3Connector extends Observable {
         String[] tab = s.split(";");
         M3ClassPathEntry[] lstClassPath = new M3ClassPathEntry[tab.length];
         for (int i = 0; i < tab.length; i++) {
-            lstClassPath[i] = new M3ClassPathEntry(new M3ClassPathFileZ(tab[i]));
+            lstClassPath[i] = new M3ClassPathEntry(new M3ClassPathFileZ(env.getData().get(7)+tab[i]));
         }
         return lstClassPath;
     }
@@ -165,7 +165,7 @@ public class M3Connector extends Observable {
 
                 for (int i = 0; i < a.size(); i++) {
                     path += a + ";";
-                    lstClassPath[i] = new M3ClassPathEntry(new M3ClassPathFileZ(path));
+                    lstClassPath[i] = new M3ClassPathEntry(new M3ClassPathFileZ(env.getData().get(7)+path));
                 }
                 configurationProperties.setClassPath(path);
             }

@@ -337,6 +337,7 @@ public class Process implements Runnable, Observer {
                 m3Src.setSourcePathSpe(allsrc.get(0));
                 m3Src.setSourcePathStd(sourcepathStd);
 
+                m3Targ.setInitOK(false);
                 if (m3Targ.isInitOK()) {
                     try {
                         LinkedHashMap<String, M3ConfigurationInfo> lstTargConfig = m3Targ.lstM3Config();
