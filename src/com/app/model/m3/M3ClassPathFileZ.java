@@ -21,6 +21,7 @@ public class M3ClassPathFileZ implements M3Path {
 
     public M3ClassPathFileZ(String relativePath) {
         this.m_relativePath = relativePath;
+        m_realPath = Path.fromOSString(relativePath);
     }
 
     @Override

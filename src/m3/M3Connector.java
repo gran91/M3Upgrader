@@ -47,6 +47,7 @@ public class M3Connector extends Observable {
     private M3Runtime m3Runtime;
     private MovexSystem mvxSys;
     private final LinkedHashMap<String, M3ConfigurationInfo> map = new LinkedHashMap<>();
+    private final LinkedHashMap<String, ConfigurationProperties> mapConfigProp = new LinkedHashMap<>();
     private boolean initOK = false;
     private ClassLoader classloaderSpe, classLoaderStd;
     private List<Path> lstSpeClass, lstSpeSource;
@@ -116,12 +117,14 @@ public class M3Connector extends Observable {
             configurationProperties.setName(confInfo.getName());
             configurationProperties.setDescription(confInfo.getDescription());
             if (m3Runtime != null) {
-                m3Runtime.getClassPath(config);
-                configurationProperties.setClassPath(m3Runtime.getClassPath(configurationProperties.getName()));
-                MovexSystem mvxSys = MovexSystemFactory.newMovexSystem(e, configurationProperties, null);
-                return mvxSys.getClasspath();
-            } else {
-                return classPathAppendToM3ClassPath(configurationProperties.getClassPath());
+                try {
+                    m3Runtime.getClassPath(config);
+                    configurationProperties.setClassPath(m3Runtime.getClassPath(configurationProperties.getName()));
+                    MovexSystem mvxSys = MovexSystemFactory.newMovexSystem(e, configurationProperties, null);
+                    return mvxSys.getClasspath();
+                } catch (MAKException e) {
+                    return classPathAppendToM3ClassPath(mapConfigProp.get(config).getClassPath());
+                }
             }
         }
         return null;
@@ -134,6 +137,17 @@ public class M3Connector extends Observable {
             lstClassPath[i] = new M3ClassPathEntry(new M3ClassPathFileZ(tab[i]));
         }
         return lstClassPath;
+    }
+
+    public void addClassPathToConfig(String config, String a) {
+        if (map.containsKey(config)) {
+            M3ConfigurationInfo confInfo = map.get(config);
+            ConfigurationProperties configurationProperties = new ConfigurationProperties();
+            configurationProperties.setName(confInfo.getName());
+            configurationProperties.setDescription(confInfo.getDescription());
+            configurationProperties.setClassPath(a);
+            mapConfigProp.put(config, configurationProperties);
+        }
     }
 
     public M3ClassPathEntry[] addClassPathToConfig(String config, ArrayList<String> a) throws MAKException {
@@ -175,19 +189,31 @@ public class M3Connector extends Observable {
     public ArrayList<Path> listSourcePathConfig(String config) throws MAKException {
         if (map.containsKey(config)) {
             M3ConfigurationInfo confInfo = map.get(config);
-            m3Runtime.getClassPath(config);
-            ConfigurationProperties configurationProperties = new ConfigurationProperties();
-            configurationProperties.setName(confInfo.getName());
-            configurationProperties.setDescription(confInfo.getDescription());
-            configurationProperties.setClassPath(m3Runtime.getClassPath(configurationProperties.getName()));
-            MovexSystem mvxSys = MovexSystemFactory.newMovexSystem(e, configurationProperties, null);
-            ArrayList<Path> lstPath = new ArrayList<>();
-            for (File f : mvxSys.getSourcePath().toFileArray()) {
-                lstPath.add(Paths.get(f.getAbsolutePath()));
+            try {
+                m3Runtime.getClassPath(config);
+                ConfigurationProperties configurationProperties = new ConfigurationProperties();
+                configurationProperties.setName(confInfo.getName());
+                configurationProperties.setDescription(confInfo.getDescription());
+                configurationProperties.setClassPath(m3Runtime.getClassPath(configurationProperties.getName()));
+                MovexSystem mvxSys = MovexSystemFactory.newMovexSystem(e, configurationProperties, null);
+                ArrayList<Path> lstPath = new ArrayList<>();
+                for (File f : mvxSys.getSourcePath().toFileArray()) {
+                    lstPath.add(Paths.get(f.getAbsolutePath()));
+                }
+                return lstPath;
+            } catch (MAKException e) {
+                return M3ClassPathToSrcPath(classPathAppendToM3ClassPath(mapConfigProp.get(config).getClassPath()));
             }
-            return lstPath;
         }
         return null;
+    }
+
+    public ArrayList<Path> M3ClassPathToSrcPath(M3ClassPathEntry[] tab) {
+        ArrayList<Path> lstPath = new ArrayList<>();
+        for (M3ClassPathEntry entry : tab) {
+            lstPath.add(Paths.get(entry.getPath().toOSString().replaceAll("bindbg", "src")));
+        }
+        return lstPath;
     }
 
     public FilePaths listViewDefPathConfig(String config) throws MAKException {
@@ -551,6 +577,14 @@ public class M3Connector extends Observable {
 
     public ArrayList<String> getListUnderConfigSelect() {
         return listUnderConfigSelect;
+    }
+
+    public LinkedHashMap<String, M3ConfigurationInfo> getConfigMap() {
+        return map;
+    }
+
+    public LinkedHashMap<String, ConfigurationProperties> getMapConfigProp() {
+        return mapConfigProp;
     }
 
     public void setListUnderConfigSelect(LinkedHashMap<String, M3ConfigurationInfo> list) {
